@@ -14,8 +14,4 @@ sudo perl ./install-tl --no-interaction --scheme=small
 export PATH=$PATH:/usr/local/texlive/2022/bin/x86_64-linux
 echo "PATH=$PATH:/usr/local/texlive/2022/bin/x86_64-linux">>/etc/environment
 
-tlmgr update --self --all
-tlmgr install latexmk
-tlmgr install imakeidx
-tlmgr install reledmac
-tlmgr install babel-latin
+tlmgr install latexmk imakeidx reledmac babel-latin xargs bigfoot xstring titlesec csquotes gitinfo2
