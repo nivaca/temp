@@ -14,3 +14,9 @@ tlmgr install latexmk
 tlmgr install imakeidx
 tlmgr install reledmac
 tlmgr install babel-latin
+tlmgr install xargs
+tlmgr install bigfoot
+tlmgr install xstring
+tlmgr install titlesec
+tlmgr install csquotes
+tlmgr install gitinfo2
